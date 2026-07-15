@@ -17,7 +17,7 @@ Estoy haciendo actualmente un tecnologo en el sena sobre **PROGRAMACION DE SOFTW
 
 **3.** En el segundo semestre en la *Universidad del Bosque* desarrollamos una cartelera de cine usando solamente if y else system.out en la plataforma Eclipse
 
-**4.**Actualmente estoy desarrollando este proyecto. Una pagina con informacion y ayuda sobre el VIH 
+**4.** Actualmente estoy desarrollando este proyecto. Una pagina con informacion y ayuda sobre el VIH 
 
 ### Me desempeño mucho mejor en HTML y JavaScript
 
