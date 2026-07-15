@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIH Colombia</title>
+    <link reel="styleheet" href="style.css">
+    <link reel="styleheet" href="script.js">    
+    <link reel="shortcut icon" href="img/Logo..png" rel="icon">
+    
+</head>
+
+<!---------------------------BODY------------------------------>
+
+    <body>
+    
+        <!----------------ENCABEZADO-------------------->
+        <header>
+            <a href="" class="Logo">
+                <img src="img/Logo..png" width="300px" alt="LOGO VIH">
+            </a>
+        </header>
+    
+
+            <nav>
+                <a href="#info"> INFORMACION </a>
+                <a href="#test"> TESTIMONIOS </a>
+                <a href="#vid"> VIDEO </a>
+                <a href="#galeria"> GALERIA </a>
+                <a href="#entid"> ENTIDADES </a>
+            </nav>
+
+      <button class="menu-btn" aria-label="menu"> ☰ </button>
+      
+      <!-----------------SLIDER------------------>
+        <section class="slider" id="inicio">
+
+            <div class="slide activo slide-1">
+                <img src="img/Slider.png.png" alt="El VIH no distingue edad" width="720px 200px" class="slide-bg">
+                <div class="slide-overlay">
+                    <div class="slide-contenido"> 
+                        <h2> ROMPE <spam> El estigma </spam></h2>
+                          <p>La discriminación se combate con conocimiento; rompamos los estigmas del VIH.</p>
+                        <a href="#info" class="btn"> Conoce más </a>
+                    </div>
+                </div>
+            </div>    
+
+            <div class="slide activo slide-2">
+                <img src="img/SLlider2.png" alt="Prevenir es VIDA" width="800px200px" class="slide-bg">
+                <div class="slide-overlay">
+                    <div class="slide-contenido"> 
+                        <h2> PREVENIR <spam> Puede salvar tu vida </spam></h2>
+                          <p>Prevenir el VIH es cuidarte y cuidar a los demás. </p>
+                        <a href="#test" class="btn"> Testimonios. </a>
+                    </div>
+                </div>
+            </div>  
+            
+            <div class="slider-flechas">
+                <button class="flecha" onclick="anteriorslide()"> &#8592</button> 
+                <button class="flecha" onclick="siguienteslide()"> &#8594</button> 
+            </div>
+            <div class="slider-puntos">
+                <button class="punto activo" onclick="mostrarslide(0)"> </button>
+                <button class="punto " onclick="mostrarslide(1)"> </button>
+                <button class="punto " onclick="mostrarslide(2)"> </button>
+            </div>
+        </section>
+            
+            <!-----------------INFORMACIÓN----------------->
+       
+       
+       
+        <section id="info">
+            <div class="Titulo seccion">
+                <h1>¿Que debe saber sobre el VIH?</h1>
+            <div class="Linea"></div>
+            <p>Informacion sobre el VIH para jovenes Colombianos</p>
+            </div>
+        <div class="Fotos-grid">
+           
+           
+            <div class="Foto-card">
+                <div class="imagen bg-1">
+                <img src="Vih.Colombia_web/img/4X4.png.png" alt="gal1" class="foto-img">
+                </div>
+            <div class="Info">
+                <h3>¿Que es el VIH?</h3>
+                <p1>VIH (Virus de Inmunodeficiencia Humana) es un virus que ataca el sistema inmunitario. Destruye los glóbulos blancos (células CD4) encargados de combatir infecciones. Sin tratamiento, debilita las defensas y puede derivar en SIDA (Síndrome de Inmunodeficiencia Adquirida), la etapa más avanzada de la enfermedad.</p1>
+            </div>
+            </div>
+
+             <div class="Foto-card2">
+                <div class="imagen bg-1">
+                <img src="Vih.Colombia_web/img/Gal-img.png" alt="gal2" class="foto-img">
+                </div>
+            <div class="Info">
+                <h3>¿Como prevenirlo?</h3>
+                <p1>PrEP (Antes): Una pastilla diaria para personas que no tienen VIH pero quieren protegerse antes de una exposición.</p1>
+                <p2>PEP (Después): Tratamiento de emergencia si falló el condón o hubo riesgo. Se debe tomar antes de que pasen 72 horas.</p2>
+                <p3>Tratamiento como prevención: Si una persona con VIH toma sus medicinas y el virus es indetectable en su sangre, no lo transmite a nadie.</p2>
+            </div>
+
+             <div class="Foto-card3">
+                <div class="imagen bg-1">
+                <img src="Vih.Colombia_web/img/Gal-img.png" alt="gal3" class="foto-img">
+                </div>
+            <div class="Info">
+                <h3>Pruebas de detección</h3>
+                            <p1>La prueba rápida de antígenos y anticuerpos (de sangre o saliva) es la forma más común de detectar el VIH:</p1>
+                                <p2>Rapidez: El resultado está listo en 15 a 20 minutos.</p2>
+                                <p3>Periodo ventana: Se debe esperar entre 2 y 6 semanas después de la situación de riesgo para que el resultado sea confiable.</p3>
+                            <p4>Resultado: Si da positivo, siempre se requiere una segunda prueba de laboratorio para confirmarlo por completo.</p4>
+                        </div>
+                     </div> 
+                 </div>
+             </div>
+                  
+        </section>
+                 <!-------------------TESTOMONIOS------------------------>
+
+        <section id="test">
+            <div class="Testimonios">
+                <h2>TESTIMONIOS</h2>
+                <p1>Aquí podrás encontrar testimonios auténticos y casos ocurridos en la vida real.</p1>
+                
+            </div>
+
+            <div class="Fotos-grid">
+
+
+                <div class="testimonio1">
+                    <div class="comillas"></div>
+                    <!------Testimonio 1----->
+                    <p2>Cuando tenía 22 años recibí el diagnóstico de VIH. Al principio sentí mucho miedo porque no sabía qué significaba realmente vivir con el virus.
+                         Con el tiempo entendí que, siguiendo mi tratamiento y asistiendo a mis controles médicos, podía llevar una vida normal. 
+                         Hoy comparto mi historia para que más personas comprendan la importancia de la prevención y de no discriminar a quienes vivimos con VIH.</p2>
+                            <div class="autor"></div>
+                                <div class="avatar">A </div>
+                            <div class="autorinfo"></div>
+                        <span>Laura Gomez - 30 años</span>
+                    <span>Ciudad:Bogotá D.C</span>
+                </div>
+
+
+                <div class="testimonio2">
+                    <div class="comillas2"></div>
+                    <!------Testimonio 2----->
+                    <p2>"Me diagnosticaron con VIH a los 35 años. Pensé que mi vida había terminado, pero descubrí que no era así. 
+                        Gracias al apoyo de mi familia y al tratamiento antirretroviral, recuperé mi salud y mi confianza.
+                        Ahora animo a otras personas a hacerse la prueba y a buscar atención médica sin miedo."</p2>
+                            <div class="autor"></div>
+                                <div class="avatar">A </div>
+                            <div class="autorinfo"></div>
+                        <span>Andres Martines - 42 años</span>
+                    <span>Ciudad: Cali</span>
+                </div>
+
+                        <!-------Testimonio 3--------->
+
+                <div class="testimonio3">
+                    <div class="comillas3"></div>
+                    
+                    <p2>"Tenía 19 años cuando supe que tenía VIH. Fue una noticia muy difícil de aceptar, pero aprendí que el conocimiento es la mejor herramienta para enfrentar el miedo.
+                        Con el tratamiento adecuado puedo estudiar, trabajar y cumplir mis metas. 
+                        Mi mayor deseo es que nadie sea juzgado por vivir con esta condición y que todos tengamos acceso a información y atención médica."</p2>
+                        <div class="autor"></div>
+                            <div class="avatar">A </div>
+                                <div class="autorinfo"></div>
+                        <span>Camila Rojas - 26 años</span>
+                    <span>Ciudad: Barranquilla </span>
+                </div>
+            </div>
+        </section>
+
+        <!-------------VIDEO---------------->
+        <section id="vid">
+            <div class="Titulo seccion">
+                <h2>VIDEO INFORMATIVO</h2>
+                    <div class="Linea"></div>
+                <p1>En este video encontraras un resumen explicativo sobre que es el VIH</p1>
+            </div>
+            <div class="VIDEO-GRAPPER">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/PNadccDpbOc?si=AyYON4asmbfNUSr2"
+                        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+                     gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </section>
+
+        <!----------Galeria------------->
+        <section id="galeria">
+            <div class="galeria">
+                <h2>Imagenes</h2>
+                <p1>Imágenes representativas sobre el VIH</p1>
+            </div>
+
+            <div class="galeria-item" data-src="Vih.Colombia_web/img/gal1.png" data-alt="Campaña de prevención VIH">
+                <div class="img-pleaceholder g1 ">
+                    <img src="img/gal1.png" alt="">
+                </div>
+
+                <div class="overlay">🔍</div>
+
+            </div>
+
+            <div class="galeria-item" data-src="Vih.Colombia_web/img/gal1.png" data-alt="Campaña de prevención VIH">
+                <div class="img-pleaceholder g2 ">
+                    <img src="img/gal2.png" alt="">
+                </div>
+
+                <div class="overlay">🔍</div>
+            
+            <div class="galeria-item" data-src="Vih.Colombia_web/img/gal1.png" data-alt="Campaña de prevención VIH">
+                <div class="img-pleaceholder g2 ">
+                    <img src="img/gal4.jpg" alt="">
+                </div>
+
+                <div class="overlay">🔍</div>
+
+            </div>
+
+            <div class="galeria-item" data-src="Vih.Colombia_web/img/gal1.png" data-alt="Campaña de prevención VIH">
+                <div class="img-pleaceholder g2 ">
+                    <img src="img/gal3.jpg" alt="">
+                </div>
+                <div class="overlay">🔍</div>
+            </div> 
+            
+            <div class="galeria-item" data-src="Vih.Colombia_web/img/gal1.png" data-alt="Campaña de prevención VIH">
+                <div class="img-pleaceholder g2 ">
+                    <img src="img/gal5.jpg" alt="">
+                </div>
+                <div class="overlay">🔍</div>
+            </div>
+
+            <div class="galeria-item" data-src="Vih.Colombia_web/img/gal1.png" data-alt="Campaña de prevención VIH">
+                <div class="img-pleaceholder g2 ">
+                    <img src="img/gal6.jpg" alt="">
+                </div>
+                <div class="overlay">🔍</div>
+            </div>
+            <div class="galeria-item" data-src="Vih.Colombia_web/img/gal1.png" data-alt="Campaña de prevención VIH" >
+                <div class="img-pleaceholder g2 ">
+                    <img src="img/gal7.jpg" alt="">
+                </div>
+                <div class="overlay">🔍</div>
+            </div>
+        </div>
+    </section>
+        
+        <!--------------LIGHTBOX-------------------->
+
+        <div class="lightbox" id="lightbox">
+            <button class="lightbox-cerrar" onclick="cerrarLightbox()">X</button>
+                <div class="lightbox-contenido">
+                    <img class="lightbox-img-real" id="lightbox-img-real" src="" alt=""/>
+                </div>
+        </div>
+
+        <!------------Entidades--------------->
+        <div class="Titulo seccion">
+                <h2>Entidades</h2>
+                    <div class="Linea"></div>
+                <p1>Entidades de prevención en Colombia</p1>
+
+            </div>
+
+        <div class="entidades-grid">
+
+            <a href="https://fundacioneudes.co/" target="_blank">
+                <div class="icono"></div>
+                <h3> FUNDACION EUDES </h3>
+                <p>Fundación prevención VIH - Colombia</p>
+            </a>
+        </div>
+
+        <a href="https://profamilia.org.co/servicios/its/informate-vih/" target="_blank">
+                <div class="icono"></div>
+                <h3> Profamilia </h3>
+                <p>Fundación prevención VIH - Colombia</p>
+            </a>
+        </div>
+
+        <a href="https://saludata.saludcapital.gov.co/osb/indicadores/vih-sida/" target="_blank">
+                <div class="icono"></div>
+                <h3> Saludcapital </h3>
+                <p>Fundación prevención VIH - Colombia</p>
+            </a>
+        </div>
+
+        <a href="https://ligasida.org.co/?utm_source" target="_blank">
+                <div class="icono"></div>
+                <h3> Liga contra el sida </h3>
+                <p>Fundación prevención VIH - Colombia</p>
+            </a>
+        </div>
+
+        <a href="https://www.aidforaidscolombia.org" target="_blank">
+                <div class="icono"></div>
+                <h3> AidforaidsColombia </h3>
+                <p>Fundación prevención VIH - Colombia</p>
+            </a>
+        </div>
+
+
+    </body>
+</html>
